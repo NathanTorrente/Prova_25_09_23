@@ -17,11 +17,13 @@ namespace Prova_3º_bimes
 
         }
         public FunciMedico(string crm, double horaExt, string especialidade, string nome, string cpf, int matricula, DateTime dataNasci, string sexo, double salario)
-        {                 :base(nome, cpf, matricula, dataNasci, sexo, salario);
+                        :base(nome, cpf, matricula, dataNasci, sexo, salario)
+        {
 
             CRM = crm;
             HoraExt = horaExt;
             this.especialidade = especialidade;
         }
+    
     }
 }
