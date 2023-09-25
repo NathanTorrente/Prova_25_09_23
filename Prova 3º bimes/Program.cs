@@ -93,6 +93,7 @@ while (true)
             if (esco == 1)
             {
                 double sal2 = (salario2 * 0.15);
+                Console.WriteLine("Salario de : "+ salario2  );
             }
             else
             {
