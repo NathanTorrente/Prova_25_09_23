@@ -13,10 +13,12 @@ namespace Prova_3º_bimes
         public FuncAdm()
         {
         }
-        public FuncAdm(string funcao, string nome, string cpf, int matricula, DateTime dataNasci, string sexo, double salario) 
-                  : base(nome, cpf, matricula, dataNasci, sexo, salario)
+        public FuncAdm(string funcao, string nome2, string cpf, int matricula, DateTime dataNasci, string sexo, double salario) 
+                  : base(nome2, cpf, matricula, dataNasci, sexo, salario)
         {
             this.funcao = funcao;
+         
+
         }
     }
 }
