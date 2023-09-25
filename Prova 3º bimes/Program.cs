@@ -88,9 +88,18 @@ while (true)
             FuncAdm adm = new FuncAdm("Tecnico da área Asistencia de Software", nome2, cpf2, 323323, datanas2, gene2, 5000);
 
             Console.WriteLine("Voce recebe vale transporte? 1 e 2");
+            int esco = Convert.ToInt32(Console.ReadLine());
+
+            if (esco == 1)
+            {
+                double sal2 = (salario2 * 0.15);
+            }
+            else
+            {
+                Console.WriteLine( "nenhum valor adicional" );
+            }
             
-            Console.WriteLine("\nVocê recebera R$ 150: ");
-            double sal2 = (salario2 * 0.15);
+      
         }
         else if (escolha == 2)
         {
