@@ -24,6 +24,7 @@ namespace Prova_3º_bimes
             HoraExt = horaExt;
             this.especialidade = especialidade;
         }
+
     
     }
 }

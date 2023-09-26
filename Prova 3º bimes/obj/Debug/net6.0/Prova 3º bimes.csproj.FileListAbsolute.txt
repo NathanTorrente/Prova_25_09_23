@@ -27,3 +27,17 @@ C:\Users\Familia Torrente ^-^\Pictures\Nova pasta\Prova_25_09_23\Prova 3º bimes
 C:\Users\Familia Torrente ^-^\Pictures\Nova pasta\Prova_25_09_23\Prova 3º bimes\obj\Debug\net6.0\Prova 3º bimes.pdb
 C:\Users\Familia Torrente ^-^\Pictures\Nova pasta\Prova_25_09_23\Prova 3º bimes\obj\Debug\net6.0\Prova 3º bimes.genruntimeconfig.cache
 C:\Users\Familia Torrente ^-^\Pictures\Nova pasta\Prova_25_09_23\Prova 3º bimes\obj\Debug\net6.0\ref\Prova 3º bimes.dll
+C:\Users\Familia Torrente ^-^\source\repos\Prova_25_09_23\Prova 3º bimes\bin\Debug\net6.0\Prova 3º bimes.exe
+C:\Users\Familia Torrente ^-^\source\repos\Prova_25_09_23\Prova 3º bimes\bin\Debug\net6.0\Prova 3º bimes.deps.json
+C:\Users\Familia Torrente ^-^\source\repos\Prova_25_09_23\Prova 3º bimes\bin\Debug\net6.0\Prova 3º bimes.runtimeconfig.json
+C:\Users\Familia Torrente ^-^\source\repos\Prova_25_09_23\Prova 3º bimes\bin\Debug\net6.0\Prova 3º bimes.dll
+C:\Users\Familia Torrente ^-^\source\repos\Prova_25_09_23\Prova 3º bimes\bin\Debug\net6.0\Prova 3º bimes.pdb
+C:\Users\Familia Torrente ^-^\source\repos\Prova_25_09_23\Prova 3º bimes\obj\Debug\net6.0\Prova 3º bimes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Familia Torrente ^-^\source\repos\Prova_25_09_23\Prova 3º bimes\obj\Debug\net6.0\Prova 3º bimes.AssemblyInfoInputs.cache
+C:\Users\Familia Torrente ^-^\source\repos\Prova_25_09_23\Prova 3º bimes\obj\Debug\net6.0\Prova 3º bimes.AssemblyInfo.cs
+C:\Users\Familia Torrente ^-^\source\repos\Prova_25_09_23\Prova 3º bimes\obj\Debug\net6.0\Prova 3º bimes.csproj.CoreCompileInputs.cache
+C:\Users\Familia Torrente ^-^\source\repos\Prova_25_09_23\Prova 3º bimes\obj\Debug\net6.0\Prova 3º bimes.dll
+C:\Users\Familia Torrente ^-^\source\repos\Prova_25_09_23\Prova 3º bimes\obj\Debug\net6.0\refint\Prova 3º bimes.dll
+C:\Users\Familia Torrente ^-^\source\repos\Prova_25_09_23\Prova 3º bimes\obj\Debug\net6.0\Prova 3º bimes.pdb
+C:\Users\Familia Torrente ^-^\source\repos\Prova_25_09_23\Prova 3º bimes\obj\Debug\net6.0\Prova 3º bimes.genruntimeconfig.cache
+C:\Users\Familia Torrente ^-^\source\repos\Prova_25_09_23\Prova 3º bimes\obj\Debug\net6.0\ref\Prova 3º bimes.dll

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Familia Torrente ^-^\\Pictures\\Nova pasta\\Prova_25_09_23\\Prova 3º bimes\\Prova 3º bimes.csproj",
+      "projectUniqueName": "C:\\Users\\Familia Torrente ^-^\\source\\repos\\Prova_25_09_23\\Prova 3º bimes\\Prova 3º bimes.csproj",
       "projectName": "Prova 3º bimes",
-      "projectPath": "C:\\Users\\Familia Torrente ^-^\\Pictures\\Nova pasta\\Prova_25_09_23\\Prova 3º bimes\\Prova 3º bimes.csproj",
+      "projectPath": "C:\\Users\\Familia Torrente ^-^\\source\\repos\\Prova_25_09_23\\Prova 3º bimes\\Prova 3º bimes.csproj",
       "packagesPath": "C:\\Users\\Familia Torrente ^-^\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Familia Torrente ^-^\\Pictures\\Nova pasta\\Prova_25_09_23\\Prova 3º bimes\\obj\\",
+      "outputPath": "C:\\Users\\Familia Torrente ^-^\\source\\repos\\Prova_25_09_23\\Prova 3º bimes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

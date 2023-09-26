@@ -14,7 +14,7 @@ namespace Prova_3º_bimes
         public int Matricula { get; set;}   
         public DateTime DataNasci { get; set; }
         public string Sexo { get; set;} 
-        public double Salalio { get; set;} 
+        public double Salario { get; set;} 
 
         public Funcionario()
         {
@@ -27,7 +27,7 @@ namespace Prova_3º_bimes
             Matricula = matricula;
             DataNasci = dataNasci;
             Sexo = sexo;
-            Salalio = salalio;
+            Salario = salalio;
         }   
     }
 }
