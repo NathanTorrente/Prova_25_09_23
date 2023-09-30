@@ -2,13 +2,15 @@
 using System.Globalization;
 using System.Security.Cryptography;
 using System.Threading.Channels;
-
+List<FunciMedico> FM = new List<FunciMedico>();
+List<FuncAdm> FADM = new List<FuncAdm>();
 while (true)
 {
     Console.WriteLine($"\nOlá, qual tipo de funcionario desejas cadrastar? ");
 
     Console.WriteLine($"\n 1- Médico. ");
     Console.WriteLine($" 2- Administrador. ");
+  
     Console.Write($" Opção: ");
     int escolha = Convert.ToInt32( Console.ReadLine());
     Console.Clear();
@@ -22,7 +24,7 @@ while (true)
 
         if ( es == 1)
         {
-            List<FunciMedico> FM = new List<FunciMedico>();
+       
             FunciMedico Md = new FunciMedico();
 
             Console.Write("\n Digite seu Nome: ");
@@ -46,23 +48,9 @@ while (true)
             Console.Write(" informe seu Salário: ");
             double salario = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write(" Se trabalhou horas extras digite a quantidade de horas: ");
-            int hoex = Convert.ToInt32(Console.ReadLine());
-            FunciMedico f = new FunciMedico(Crm, hoex, "Tecnico área X", nome, cpf, 232323, datanas, gene, 0);
-            if (hoex > 0)
-            {
-                Console.WriteLine($"\n Voce recebeu R$ 100,00 de {hoex} horas extra: ");
-                salario = (salario + 100);
-            }
-            else if (hoex <= 0)
-            {
-                Console.WriteLine("\n Nenhum valor...");
-            }       
-            Console.WriteLine(" Você recebu 20% de auxilio periculosidade: ");
-            
-             
-             double sal = (salario + (salario * 20 / 100));
-            Console.WriteLine($" Seu salario R$: {sal}");
+            FunciMedico f = new FunciMedico();
+       
+ 
             Md.Nome = nome;
             Md.Sexo = gene;
             Md.Cpf = cpf;
@@ -73,7 +61,8 @@ while (true)
 
             foreach (FunciMedico Dados in FM)
             {
-                Console.WriteLine($" Seus Dados: \n Nome: {Dados.Nome}\n Sexo: {Dados.Sexo}\n Cpf: {Dados.Cpf}\n CRM: {Dados.CRM}\n Matricula: {Dados.Matricula}\n Data:{Dados.DataNasci}");          
+               
+                Console.WriteLine($" Seus Dados: \n Salario: {f.Salario}\n Nome: {Dados.Nome}\n Sexo: {Dados.Sexo}\n Cpf: {Dados.Cpf}\n CRM: {Dados.CRM}\n Matricula: {Dados.Matricula}\n Data:{Dados.DataNasci}");          
             }
         }
         else if (es == 2)
@@ -89,7 +78,7 @@ while (true)
         int esc = Convert.ToInt32(Console.ReadLine());
         if (esc == 1)
         {
-            List<FuncAdm> FADM = new List<FuncAdm>();
+          
             FuncAdm FD = new FuncAdm();
 
             Console.Write("\n Digite seu Nome: ");
@@ -113,27 +102,8 @@ while (true)
             Console.Write("\n informe seu Salário: ");
             double salario2 = Convert.ToInt32(Console.ReadLine());
 
-            FuncAdm adm = new FuncAdm("Tecnico da área Asistencia de Software", nome2, cpf2, 323323, datanas2, gene2, 0);
+            FuncAdm adm = new FuncAdm();
 
-          
-            Console.WriteLine(" Caso seja portador de vale transporte ou vale alimentação, digite 1 para --Transporte--, ou 2 para --Alimentação--");
-            int es = Convert.ToInt32(Console.ReadLine());
-
-            if (es == 1)
-            {
-                salario2 += 150;
-                double sal2 = salario2 + (salario2 * 0.15);
-                Console.WriteLine(" Salario de : "+ sal2  );
-            }
-            else if (es == 2) 
-            {
-                salario2 += (salario2 * 0.15);
-                Console.WriteLine(" Salario de : " + salario2);
-            }
-            else
-            {
-                Console.WriteLine("nenhum valor adicional");
-            }
             FD.Nome = nome2;
             FD.Sexo = gene2;
             FD.Salario = salario2;
@@ -142,10 +112,12 @@ while (true)
             FD.Cpf = cpf2;
 
             FADM.Add(FD);
+       
 
             foreach (FuncAdm Dados in FADM)
             {
-                Console.WriteLine($" Seus Dados: \n Nome: {Dados.Nome}\n Salario: {Dados.Salario}\n Data nascimento: {Dados.DataNasci} \n Matricula: {Dados.Matricula}\n Cpf:{Dados.Cpf}");
+                
+                Console.WriteLine($" Seus Dados: \n Nome: {Dados.Nome}\n Salario: {FD.Salario}\n Data nascimento: {Dados.DataNasci} \n Matricula: {Dados.Matricula}\n Cpf:{Dados.Cpf}");
             }
         }
         else if (escolha == 2)

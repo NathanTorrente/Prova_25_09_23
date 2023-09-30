@@ -24,7 +24,13 @@ namespace Prova_3º_bimes
             HoraExt = horaExt;
             this.especialidade = especialidade;
         }
-
-    
+        public void AumentoMedico()
+        {
+            double salariopericulosidade = Salario * 0.20;
+            double valorhoraextra = 0;
+            Salario = salariopericulosidade + valorhoraextra;
+            Console.WriteLine($"Seu salario é: {Salario}");
+         
+        }
     }
 }

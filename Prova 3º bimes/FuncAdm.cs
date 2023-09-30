@@ -15,8 +15,16 @@ namespace Prova_3º_bimes
                   : base(nome2, cpf, matricula, dataNasci, sexo, salario)
         {
             this.funcao = funcao;
-         
+        
+        }
+        public void Aumento()
+        {
 
+            double valeTransporte = 150;
+            double valeAlimentcao = Salario + 0.15;
+            Salario = valeAlimentcao + valeTransporte;
+            Console.WriteLine($"Seu salario é: {Salario}");
+           
         }
     }
 }
